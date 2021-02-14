@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* MSc in Medical Physics, University of Aberdeen, Sep 2019 - Sep 2020
+* Studied MSc in Mathematical & Theoretical Physics, University of Science HCMC, Dec 2016 - May 2019
+* BSc Honour Program in Physics, University of Science, Sep 2009 - May 2014
 
 Work experience
 ======
