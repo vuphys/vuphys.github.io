@@ -5,10 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-plugins:
-  - jekyll-remote-theme
-remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin : "mint"
+
 
 # Site Settings
 locale                   : "en-UK"
@@ -144,7 +141,6 @@ exclude:
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
-  - assets
   - config
   - gulpfile.js
   - log
