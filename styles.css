@@ -1,60 +1,81 @@
-body {
-    font-family: 'Arial', sans-serif;
-}
 
-h1, h2 {
-    font-weight: 700;
-}
+        body {
+            font-family: 'Arial', sans-serif;
+        }
 
-.btn-outline-light {
-    border: 1px solid #fff;
-}
+        h1, h2 {
+            font-weight: 700;
+        }
 
-.card {
-    margin: 10px;
-    border-radius: 0.5rem;
-    transition: transform 0.3s;
-}
+        .btn-outline-light {
+            border: 1px solid #fff;
+        }
 
-.card:hover {
-    transform: scale(1.05);
-}
+        .card {
+            margin: 10px;
+            border-radius: 0.5rem;
+            transition: transform 0.3s;
+        }
 
-footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-}
+        .card:hover {
+            transform: scale(1.05);
+        }
 
-form .form-control {
-    border-radius: 0.3rem;
-    background-color: #333;
-    color: #fff;
-}
+        footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+        }
 
-form .form-control::placeholder {
-    color: #bbb;
-}
+        form .form-control {
+            border-radius: 0.3rem;
+            background-color: #333;
+            color: #fff;
+        }
 
-/* Additional styles for the navbar */
-.navbar {
-    transition: background-color 0.5s;
-}
+        form .form-control::placeholder {
+            color: #bbb;
+        }
 
-.navbar .nav-link {
-    font-family: 'Orbitron', sans-serif;
-    transition: color 0.5s;
-}
+        /* Shining effect */
+        .shining-title {
+            transition: text-shadow 0.3s ease;
+        }
 
-.navbar .nav-link:hover {
-    color: #1e7e34;
-}
+        .shining-title:hover {
+            text-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
+        }
 
-/* Change navbar background when scrolling */
-body.scrolled .navbar {
-    background: rgba(0, 0, 0, 0.85);
-}
+        /* Centering Skills */
+        .card-deck {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
- 
+        /* Additional styles for the navbar */
+        .navbar {
+            transition: background-color 0.5s;
+        }
 
+        .navbar .nav-link {
+            font-family: 'Orbitron', sans-serif;
+            transition: color 0.5s;
+        }
+
+        .navbar .nav-link:hover {
+            color: #1e7e34;
+        }
+
+        /* Change navbar background when scrolling */
+        body.scrolled .navbar {
+            background: rgba(0, 0, 0, 0.85);
+        }
+
+        @media (max-width: 768px) {
+            .form-control {
+                font-size: 14px; /* Adjusting font size for smaller screens */
+            }
+        }
+   
