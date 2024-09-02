@@ -10,9 +10,48 @@ h1, h2 {
     border: 1px solid #fff;
 }
 
+.card {
+    margin: 10px;
+    border-radius: 0.5rem;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
 footer {
     position: relative;
     bottom: 0;
     width: 100%;
     background-color: black;
+}
+
+form .form-control {
+    border-radius: 0.3rem;
+    background-color: #333;
+    color: #fff;
+}
+
+form .form-control::placeholder {
+    color: #bbb;
+}
+
+/* Additional styles for the navbar */
+.navbar {
+    transition: background-color 0.5s;
+}
+
+.navbar .nav-link {
+    font-family: 'Orbitron', sans-serif;
+    transition: color 0.5s;
+}
+
+.navbar .nav-link:hover {
+    color: #1e7e34;
+}
+
+/* Change navbar background when scrolling */
+body.scrolled .navbar {
+    background: rgba(0, 0, 0, 0.85);
 }

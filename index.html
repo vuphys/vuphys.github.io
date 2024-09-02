@@ -6,68 +6,132 @@
     <title>Vu - Cyber Security Analyst</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
 </head>
 <body class="bg-dark text-light">
 
-    <header class="text-center py-5">
-        <h1 class="display-4">Vu</h1>
-        <p class="lead">Cyber Security Analyst</p>
-        <hr class="my-4 bg-light">
-        <p>Securing your digital world.</p>
-        <a class="btn btn-outline-light btn-lg" href="#contact" role="button">Contact Me</a>
-    </header>
+<header class="text-center py-5">
+    <h1 class="display-4" style="font-family: 'Orbitron', sans-serif;">Vu</h1>
+    <p class="lead">Cyber Security Analyst</p>
+    <hr class="my-4 bg-light">
+    <p>Securing your digital world.</p>
+    <a class="btn btn-outline-light btn-lg" href="#contact" role="button">Contact Me</a>
+</header>
 
-    <section class="py-5">
-        <div class="container">
-            <h2 class="text-center">About Me</h2>
-            <p class="text-center">
-                I'm a cybersecurity analyst with a passion for protecting information systems from cyber threats. 
-                With a strong background in security protocols, risk management, and real-time threat analysis, 
-                I strive to safeguard sensitive data for individuals and organizations alike.
-            </p>
-        </div>
-    </section>
-
-    <section class="py-5 bg-secondary">
-        <div class="container">
-            <h2 class="text-center text-light">Skills</h2>
-            <ul class="list-unstyled text-center">
-                <li>🔐 Network Security</li>
-                <li>🚨 Incident Response</li>
-                <li>📡 Threat Analysis</li>
-                <li>🛡️ Penetration Testing</li>
-                <li>🔍 Vulnerability Assessment</li>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Vu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#stamp-collection">Stamp Collection</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
             </ul>
         </div>
-    </section>
+    </div>
+</nav>
 
-    <section id="contact" class="py-5">
-        <div class="container">
-            <h2 class="text-center">Contact Me</h2>
-            <form id="contactForm" class="text-center">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Your Name" required>
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="text-center">About Me</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card bg-secondary text-light shadow-lg">
+                    <div class="card-body text-center">
+                        <p>
+                            I'm a cybersecurity analyst with a passion for protecting 
+                            information systems from cyber threats. With a strong background 
+                            in security protocols, risk management, and real-time threat 
+                            analysis, I strive to safeguard sensitive data for individuals 
+                            and organizations alike.
+                        </p>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Your Email" required>
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-outline-light">Send Message</button>
-            </form>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <footer class="text-center py-4">
-        <p>&copy; 2023 Vu. All Rights Reserved.</p>
-        <a href="https://www.linkedin.com/in/vu" target="_blank" class="text-light">LinkedIn</a> | 
-        <a href="https://github.com/vu" target="_blank" class="text-light">GitHub</a>
-    </footer>
+<section class="py-5 bg-secondary">
+    <div class="container">
+        <h2 class="text-center text-light">Skills</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="card-deck">
+                    <div class="card bg-dark text-light shadow-lg">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">🔐 Network Security</h5>
+                        </div>
+                    </div>
+                    <div class="card bg-dark text-light shadow-lg">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">🚨 Incident Response</h5>
+                        </div>
+                    </div>
+                    <div class="card bg-dark text-light shadow-lg">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">📡 Threat Analysis</h5>
+                        </div>
+                    </div>
+                    <div class="card bg-dark text-light shadow-lg">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">🛡️ Penetration Testing</h5>
+                        </div>
+                    </div>
+                    <div class="card bg-dark text-light shadow-lg">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">🔍 Vulnerability Assessment</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Contact Me</h2>
+        <form id="contactForm" class="text-center">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-light">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer class="text-center py-4">
+    <p>&copy; 2023 Vu. All Rights Reserved.</p>
+    <a href="https://www.linkedin.com/in/vu" target="_blank" class="text-light">LinkedIn</a> | 
+    <a href="https://github.com/vu" target="_blank" class="text-light">GitHub</a>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
